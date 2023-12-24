@@ -902,11 +902,12 @@ border: 0;
 width: 15px;
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: space-between;
 padding: 10px;
 cursor: pointer;
 background-color: white;
 border: none;
+
 }
 .RemoveButton{
   width: 60px;
@@ -988,6 +989,16 @@ justify-content: center;
 }
 .ClosesidebarIcon:hover{
   color:  #088178;
+}
+.addProduct{
+  padding: 5px;
+  background-color: #088178;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin-left: 5px;
+  cursor: pointer;
+
 }
 
 @media screen and (max-width:768px) {
