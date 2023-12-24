@@ -13,8 +13,6 @@ const Cartitems = (Props) => {
         <p>Title</p>
         <p>Price</p>
         <p>Quantity</p>
-        <p>total</p>
-        <p>Remove</p>
       </div>
       <hr />
       {AllProductsData.map((e) => {
@@ -36,7 +34,7 @@ const Cartitems = (Props) => {
                     Add
                   </button>
                 </button>
-                <p>${e.Price * cartItem[e.id]}</p>
+                <p>Total ${e.Price * cartItem[e.id]}</p>
                 <button
                   className="RemoveButton"
                   onClick={() => {

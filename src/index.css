@@ -919,8 +919,9 @@ border: none;
 border-radius: 5px;
 padding: 5px;
 cursor: pointer;
+color: white;
 border: 1px solid gray;
-background-color: white;
+background-color:#088178;
 }
 .RemoveButton:hover{
   color: white;
@@ -1138,7 +1139,7 @@ height: 50vh;
 }
 .cartItem-main{
   display: grid;
-  grid-template-columns: 2fr 2fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
   align-items: center;
   gap: 5px;
   padding: 20px 15px;
